@@ -1,0 +1,28 @@
+<view class="container">
+	<view class="flex flex-wrap diygw-col-24 flex-direction-column flex-clz">
+		<view class="diygw-col-24 text-clz diygw-text-lg"> 招商政策 </view>
+		<view class="flex diygw-col-24">
+			<view class="diygw-list">
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/policy/article/chanye" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/ssyj.png"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 加快重点产业实施意见 </view>
+						<view class="text-sm remark"> 为抢抓国家新一轮东北振兴战略机遇，推进实施“抓招商、落项目、'促五转'”活动... </view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/policy/article/lvyou" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/lytz.png"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 加快旅游业发展若干意见 </view>
+						<view class="text-sm remark"> 为把我县旅游业培育成为新的支柱产业，推动旅游业转型升级、跨越发展... </view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	
+</view>

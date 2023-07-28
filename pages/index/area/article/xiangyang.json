@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "向阳镇",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

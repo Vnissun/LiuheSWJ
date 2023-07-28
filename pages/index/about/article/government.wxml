@@ -1,0 +1,9 @@
+<view class="container">
+	<view class="flex diygw-col-24 justify-center items-center flex-wrap flex-clz">
+		<rich-text nodes="{{text}}" class="diygw-col-24 text-clz diygw-text-xl"></rich-text>
+		<image src="/static/lhmp.png" class="response diygw-col-21" mode="widthFix"></image>
+		<rich-text nodes="{{text1}}" class="diygw-col-24 text1-clz diygw-text-md"></rich-text>
+		<image src="/static/gk5.png" class="response diygw-col-24 image2-clz" mode="widthFix"></image>
+	</view>
+	
+</view>

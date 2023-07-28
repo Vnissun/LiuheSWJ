@@ -1,0 +1,34 @@
+<view class="container">
+	<view class="flex flex-wrap diygw-col-24 flex-direction-column flex-clz">
+		<view class="diygw-col-24 text-clz diygw-text-lg"> 视频推介 </view>
+		<view class="flex diygw-col-24">
+			<view class="diygw-list not-remark">
+				<view style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/zsyz.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 招商引资 </view>
+					</view>
+				</view>
+				<view style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/xczx.png"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 乡村振兴 </view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/video/article/travel" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/stly.png"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 生态旅游 </view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	
+</view>

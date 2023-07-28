@@ -1,0 +1,59 @@
+<view class="container">
+	<view class="flex flex-wrap diygw-col-24 flex-direction-column flex-clz">
+		<view class="diygw-col-24 text-clz diygw-text-lg"> 柳河县产业 </view>
+		<view class="flex diygw-col-24">
+			<view class="diygw-list">
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/industry/article/medicine" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/yycy.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 医药健康产业 </view>
+						<view class="text-sm remark"> 柳河县现有医药生产企业12家，其中规模以上企业9家。生产中成药11家，化药1家，上市企业1家... </view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/industry/article/agricultural" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/tsny.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 特色农业 </view>
+						<view class="text-sm remark"> 柳河依托良好的资源资源优势，大力发展以稻米、人参、葡萄酒、大榛子、烟叶等特色农产品加工产业... </view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/industry/article/service" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/fwy.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 现代服务业 </view>
+						<view class="text-sm remark"> 2015年我县被评为省级电商示范县；2016年我县被商务部评为“全国第三批电子商务进农村综合示范县”... </view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="flex diygw-col-24">
+			<view class="diygw-list">
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/industry/article/tourism" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/lyy.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 旅游休闲产业 </view>
+						<view class="text-sm remark"> 柳河县地处吉林省东南部，资源优势和区位优势明显，是一个“七山半水二分田，半分道路和庄园”的山区县... </view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/industry/article/strategic" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/zlxxcy.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 战略新兴产业 </view>
+						<view class="text-sm remark"> 柳河县战略新兴产业主要分为四大板块，一是以吉林中溢炭素年产10万吨超高功率石墨电极项目... </view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	
+</view>

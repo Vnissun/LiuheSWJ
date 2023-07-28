@@ -1,0 +1,99 @@
+<view class="container">
+	<view class="flex flex-wrap diygw-col-24 flex-direction-column flex-clz">
+		<view class="diygw-col-24 text-clz diygw-text-lg"> 柳河县企业 </view>
+		<view class="flex diygw-col-24">
+			<view class="diygw-list">
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/enterprise/article/zixin" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/zxyy.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 吉林紫鑫药业股份有限公司 </view>
+						<view class="text-sm remark"> 该公司成立于1998年5月，注册资金为12.8亿元，公司位于柳河经济开发区，占地面积22万平方米... </view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/enterprise/article/changlong" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/zlzy.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 柳河长隆制药有限公司 </view>
+						<view class="text-sm remark"> 该公司成立于2018年，为修正药业集团下属子公司，注册资金为1000万元。公司位于柳河镇迎宾路... </view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/enterprise/article/tianqiang" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/tqzy.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 吉林天强制药股份有限公司 </view>
+						<view class="text-sm remark"> 该公司成立于1999年9月，注册资金3600万元。公司位于柳河县经济开发区，占地面积4.7万平方米... </view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="flex diygw-col-24">
+			<view class="diygw-list">
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/enterprise/article/longtai" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/ltzy.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 吉林龙泰制药股份有限公司 </view>
+						<view class="text-sm remark"> 该公司成立于2002年4月，注册资金为5000万元。公司位于柳河镇站前路，占地面积42000平方米... </view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/enterprise/article/zhengtong" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/lhzt.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 柳河正通药业有限公司 </view>
+						<view class="text-sm remark"> 该公司成立于2002年5月，是修正药业集团产业总公司下属子公司，注册资金100万元... </view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/enterprise/article/xiuzheng" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/lhxz.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 修正药业集团柳河制药有限公司 </view>
+						<view class="text-sm remark"> 该公司成立于2000年7月，公司位于柳河镇修正路，注册资本300万元... </view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="flex diygw-col-24">
+			<view class="diygw-list">
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/enterprise/article/zhongsheng" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/zszy.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 吉林省中晟制药有限公司 </view>
+						<view class="text-sm remark"> 该公司成立于2012年，，隶属于广东大光投资集团有限公司，注册资金为3000万元... </view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/enterprise/article/renmin" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/rmyy.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 通化仁民药业股份有限公司 </view>
+						<view class="text-sm remark"> 该公司始建于1978年，注册资金6008万元。公司位于柳河县长青路50号，占地面积2.9万平方米... </view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/enterprise/article/siwei" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/swyy.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 通化斯威药业股份有限公司 </view>
+						<view class="text-sm remark"> 该公司始建于2001年，注册资本3033万元。公司位于柳河镇斯威路1号，占地面积3.2万平方米... </view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	
+</view>

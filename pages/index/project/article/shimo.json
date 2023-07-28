@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "大规格超高功率石墨电极项目",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

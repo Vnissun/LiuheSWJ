@@ -1,0 +1,9 @@
+<view class="container">
+	<view class="flex flex-wrap diygw-col-24 flex-direction-column flex-clz">
+		<rich-text nodes="{{text}}" class="diygw-col-24 text-clz diygw-text-xl"></rich-text>
+		<view class="flex diygw-col-24">
+			<video src="https://static.liuhe.mingcheng.art/video/yxlh640.mp4" style="width: 100%; height: 300px" title="视频标题" poster="/static/lhmp.png" controls></video>
+		</view>
+	</view>
+	
+</view>

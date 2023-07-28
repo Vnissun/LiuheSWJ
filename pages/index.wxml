@@ -1,0 +1,146 @@
+<view class="container">
+	<image src="/static/banner.png" class="response diygw-col-24" mode="widthFix"></image>
+	<view class="flex diygw-col-24 grid-clz">
+		<view class="diygw-grid col-4">
+			<view catchtap="navigateTo" data-type="page" data-url="/pages/index/article/card" class="diygw-grid-item">
+				<view class="diygw-grid-inner">
+					<view style="margin-bottom: 5px" class="diygw-grid-icon diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img radius" src="/static/zy7.png"></image>
+					</view>
+					<view class="diygw-grid-title"> 关于柳河 </view>
+				</view>
+			</view>
+			<view catchtap="navigateTo" data-type="page" data-url="/pages/index/article/kaifaqu" class="diygw-grid-item">
+				<view class="diygw-grid-inner">
+					<view style="margin-bottom: 5px" class="diygw-grid-icon diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img radius" src="/static/zy5.png"></image>
+					</view>
+					<view class="diygw-grid-title"> 柳河开发区 </view>
+				</view>
+			</view>
+			<view catchtap="navigateTo" data-type="page" data-url="/pages/index/about/list" class="diygw-grid-item">
+				<view class="diygw-grid-inner">
+					<view style="margin-bottom: 5px" class="diygw-grid-icon diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img radius" src="/static/zy6.png"></image>
+					</view>
+					<view class="diygw-grid-title"> 柳河概况 </view>
+				</view>
+			</view>
+			<view catchtap="navigateTo" data-type="page" data-url="/pages/index/video/list" class="diygw-grid-item">
+				<view class="diygw-grid-inner">
+					<view style="margin-bottom: 5px" class="diygw-grid-icon diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img radius" src="/static/zy4.png"></image>
+					</view>
+					<view class="diygw-grid-title"> 视频推介 </view>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="flex diygw-col-24">
+		<swiper class="swiper swiper-indicator_rect_radius" bindchange="changeSwiper" previous-margin="50rpx" next-margin="50rpx" indicator-color="rgba(51, 51, 51, 0.39)" indicator-active-color="#fff" indicator-dots="true" autoplay interval="3000" circular="true" style="height: 100%">
+			<swiper-item class="diygw-swiper-item">
+				<view class="diygw-swiper-item-wrap {{swiperIndex != 0?'swiper-scale':''}}">
+					<image src="/static/lhmp.png" class="diygw-swiper-image"></image>
+					<view class="diygw-swiper-item-title"></view>
+				</view>
+			</swiper-item>
+			<swiper-item class="diygw-swiper-item">
+				<view class="diygw-swiper-item-wrap {{swiperIndex != 1?'swiper-scale':''}}">
+					<image src="/static/lhmp.png" class="diygw-swiper-image"></image>
+					<view class="diygw-swiper-item-title"></view>
+				</view>
+			</swiper-item>
+			<swiper-item class="diygw-swiper-item">
+				<view class="diygw-swiper-item-wrap {{swiperIndex != 2?'swiper-scale':''}}">
+					<image src="/static/lhmp.png" class="diygw-swiper-image"></image>
+					<view class="diygw-swiper-item-title"></view>
+				</view>
+			</swiper-item>
+		</swiper>
+	</view>
+	<view class="flex flex-wrap diygw-col-24 justify-center flex-clz">
+		<view class="flex flex-wrap diygw-col-12 flex-direction-column justify-center flex1-clz" catchtap="navigateTo" data-type="page" data-url="/pages/index/area/map">
+			<view catchtap="navigateTo" data-type="page" data-url="/pages/index/area/map" class="diygw-col-24 text-clz diygw-text-md text-white"> 区位 </view>
+			<view catchtap="navigateTo" data-type="page" data-url="/pages/null" class="diygw-col-24 text1-clz diygw-text-sm text-white"> 空中始发高速交叉 </view>
+		</view>
+		<view class="flex flex-wrap diygw-col-12 flex-direction-column justify-center flex2-clz" catchtap="navigateTo" data-type="page" data-url="/pages/index/resources/list">
+			<rich-text nodes="{{text2}}" catchtap="navigateTo" data-type="page" data-url="/pages/index/resources/list" class="diygw-col-24 text2-clz diygw-text-md text-white"></rich-text>
+			<rich-text nodes="{{text3}}" catchtap="navigateTo" data-type="page" data-url="/pages/index/resources/list" class="diygw-col-24 text3-clz diygw-text-sm text-white"></rich-text>
+		</view>
+		<view class="flex flex-wrap diygw-col-12 flex-direction-column justify-center flex3-clz" catchtap="navigateTo" data-type="page" data-url="/pages/index/industry/list">
+			<view catchtap="navigateTo" data-type="page" data-url="/pages/index/industry/list" class="diygw-col-24 text4-clz diygw-text-md text-white"> 产业 </view>
+			<view class="diygw-col-24 text6-clz diygw-text-sm text-white"> 产业相关文字介绍 </view>
+		</view>
+		<view class="flex flex-wrap diygw-col-12 flex-direction-column justify-center flex4-clz" catchtap="navigateTo" data-type="page" data-url="/pages/index/enterprise/list">
+			<rich-text nodes="{{text7}}" catchtap="navigateTo" data-type="page" data-url="/pages/index/enterprise/list" class="diygw-col-24 text7-clz diygw-text-md text-white"></rich-text>
+			<rich-text nodes="{{text8}}" class="diygw-col-24 text8-clz diygw-text-sm text-white"></rich-text>
+		</view>
+	</view>
+	<view class="flex diygw-col-24 flex-direction-column tabs-clz">
+		<view class="diygw-tabs text-center solid-bottom justify-around scale-title small-border">
+			<view class="diygw-tab-item  {{index==tabsIndex?' bg-cyan ':''}}" wx:for="{{tabsDatas}}" wx:for-item="item" wx:for-index="index" data-key="index" data-index="{{index}}" catchtap="changeTabs"> <text wx:if="{{item.icon}}" class="{{item.icon}}"></text> {{item.text}} </view>
+		</view>
+		<view class="">
+			<view wx:if="{{tabsIndex==0}}" class="flex-sub flex flex-direction-column flex-wrap padding-xs">
+				<view class="flex diygw-col-24">
+					<view class="diygw-list">
+						<view catchtap="navigateTo" data-type="page" data-url="/pages/index/policy/article/chanye" style="" class="diygw-item col-100 row arrow solid-bottom">
+							<view class="diygw-avatar">
+								<image mode="aspectFit" class="diygw-avatar-img" src="/static/ssyj.png"></image>
+							</view>
+							<view class="content">
+								<view class="title"> 加快重点产业实施意见 </view>
+								<view class="text-sm remark"> 为抢抓国家新一轮东北振兴战略机遇，推进实施“抓招商、落项目、'促五转'”活动... </view>
+							</view>
+						</view>
+						<view catchtap="navigateTo" data-type="page" data-url="/pages/index/policy/article/lvyou" style="" class="diygw-item col-100 row arrow solid-bottom">
+							<view class="diygw-avatar">
+								<image mode="aspectFit" class="diygw-avatar-img" src="/static/lytz.png"></image>
+							</view>
+							<view class="content">
+								<view class="title"> 加快旅游业发展若干意见 </view>
+								<view class="text-sm remark"> 为把我县旅游业培育成为新的支柱产业，推动旅游业转型升级、跨越发展... </view>
+							</view>
+						</view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/policy/list" class="diygw-col-24 text5-clz"> 查看更多 </view>
+			</view>
+			<view wx:if="{{tabsIndex==1}}" class="flex-sub flex flex-direction-column flex-wrap padding-xs">
+				<view class="flex diygw-col-24">
+					<view class="diygw-list">
+						<view catchtap="navigateTo" data-type="page" data-url="/pages/index/project/article/shimo" style="" class="diygw-item col-100 row arrow solid-bottom">
+							<view class="diygw-avatar">
+								<image mode="aspectFit" class="diygw-avatar-img" src="/static/smdj.jpg"></image>
+							</view>
+							<view class="content">
+								<view class="title"> 大规格超高功率石墨电极项目 </view>
+								<view class="text-sm remark"> 项目总投资20.4亿元，项目占地面积约15万平方米，建筑面积10.9万平方米... </view>
+							</view>
+						</view>
+						<view catchtap="navigateTo" data-type="page" data-url="/pages/index/project/article/lidian" style="" class="diygw-item col-100 row arrow solid-bottom">
+							<view class="diygw-avatar">
+								<image mode="aspectFit" class="diygw-avatar-img" src="/static/ldc.jpg"></image>
+							</view>
+							<view class="content">
+								<view class="title"> 锂离子电池负极材料项目 </view>
+								<view class="text-sm remark"> 项目总投资30亿元，占地面积15.7万平方米，建筑面积8万平方米... </view>
+							</view>
+						</view>
+						<view catchtap="navigateTo" data-type="page" data-url="/pages/index/project/article/yuanqu" style="" class="diygw-item col-100 row arrow solid-bottom">
+							<view class="diygw-avatar">
+								<image mode="aspectFit" class="diygw-avatar-img" src="/static/cyy.jpg"></image>
+							</view>
+							<view class="content">
+								<view class="title"> 大健康产业园区建设项目 </view>
+								<view class="text-sm remark"> 项目位于柳河经济开发区内，东临空军导航台，南临园区五路，西临空地、北临一统河... </view>
+							</view>
+						</view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/project/list" class="diygw-col-24 text11-clz"> 查看更多 </view>
+			</view>
+		</view>
+	</view>
+	
+</view>

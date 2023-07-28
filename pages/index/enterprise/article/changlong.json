@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "柳河长隆制药有限公司",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

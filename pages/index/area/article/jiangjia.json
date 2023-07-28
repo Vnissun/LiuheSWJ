@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "姜家店朝鲜族乡",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "水、电和煤气供应",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

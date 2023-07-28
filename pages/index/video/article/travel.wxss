@@ -1,0 +1,15 @@
+.text-clz {
+	margin-left: 0px;
+	width: 100% !important;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 0px;
+}
+.container {
+	padding-left: 0px;
+	padding-right: 0px;
+
+	font-size: 12px;
+}
+.container {
+}

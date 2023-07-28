@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "驼腰岭镇",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}
