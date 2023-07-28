@@ -1,0 +1,59 @@
+<view class="container">
+	<view class="flex flex-wrap diygw-col-24 flex-direction-column flex-clz">
+		<view class="diygw-col-24 text-clz diygw-text-lg"> 柳河县资源 </view>
+		<view class="flex diygw-col-24">
+			<view class="diygw-list">
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/resources/article/tudi" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/tdzy.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 土地资源 </view>
+						<view class="text-sm remark"> 柳河县地处长白山向松辽平原过渡地带。地层以太古界鞍山群为基底... </view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/resources/article/linye" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/lyzy.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 林业及林下特色资源 </view>
+						<view class="text-sm remark"> 柳河县位于吉林省东南部山区，是吉林省的重点林区县之一... </view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/resources/article/shuili" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/slzy.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 水利资源 </view>
+						<view class="text-sm remark"> 柳河县境内水系发达，流域分布均匀，河网密度大，河流众多... </view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="flex diygw-col-24">
+			<view class="diygw-list">
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/resources/article/kuangchan" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/kczy.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 矿产资源 </view>
+						<view class="text-sm remark"> 柳河县境内已发现各类矿产34种，其中有查明资源储量矿产16种... </view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/resources/article/laingshi" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/lszy.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 粮食资源 </view>
+						<view class="text-sm remark"> 2020年全县粮食播种面积87726公顷，其中：玉米65610公顷 </view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	
+</view>

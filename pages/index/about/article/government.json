@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "政务服务体系",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

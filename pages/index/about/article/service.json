@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "金融服务行业",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

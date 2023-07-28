@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "圣水镇",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

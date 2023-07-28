@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "中溢集团（吉林）新能源科技有限公司",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

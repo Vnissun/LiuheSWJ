@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "吉林省中晟制药有限公司",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

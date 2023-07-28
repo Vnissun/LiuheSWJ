@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "旅游休闲产业",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

@@ -1,0 +1,52 @@
+<view class="container">
+	<view class="flex flex-wrap diygw-col-24 flex-direction-column flex-clz">
+		<view class="flex flex-direction-column flex-sub diygw-col-24 collapse-clz">
+			<view class="flex flex-direction-column flex-sub">
+				<view catchtap="changeCollapse" data-index="0" class="diygw-text-md padding flex solid-bottom {{ collapseDatas[0].isShow?'bg- cur ':''}}">
+					<view class="flex-sub"> 柳河县 </view>
+					<i class="diy-icon-unfold diy-collapse-icon {{ collapseDatas[0].isShow?'diy-collapse-active':''}}"></i>
+				</view>
+				<view wx:if="{{ collapseDatas[0].isShow}}" class="solid-bottom flex flex-direction-column flex-wrap">
+					<view class="diygw-col-24">
+						<map style="width: 100%; height: 300px" latitude="{{tmap1.latitude}}" bindmarkertap="clickTmap1Marker" longitude="{{tmap1.longitude}}" markers="{{tmap1.markers}}"> </map>
+					</view>
+					<view class="flex diygw-col-24 justify-center items-center flex-nowrap flex1-clz">
+						<rich-text nodes="{{text}}" catchtap="navigateTo" data-type="page" data-url="/pages/index/article/card" class="diygw-col-24 text-clz diygw-text-md text-white"></rich-text>
+						<rich-text nodes="{{text1}}" catchtap="navigateTo" data-type="daohang" data-address="柳河县" data-lat="42.284865" data-lng="125.74469" class="diygw-col-24 diygw-text-md text-white"></rich-text>
+					</view>
+				</view>
+			</view>
+			<view class="flex flex-direction-column flex-sub">
+				<view catchtap="changeCollapse" data-index="1" class="diygw-text-md padding flex solid-bottom {{ collapseDatas[1].isShow?'bg- cur ':''}}">
+					<view class="flex-sub"> 柳河镇 </view>
+					<i class="diy-icon-unfold diy-collapse-icon {{ collapseDatas[1].isShow?'diy-collapse-active':''}}"></i>
+				</view>
+				<view wx:if="{{ collapseDatas[1].isShow}}" class="solid-bottom flex flex-direction-column flex-wrap">
+					<view class="diygw-col-24">
+						<map style="width: 100%; height: 300px" latitude="{{tmap.latitude}}" bindmarkertap="clickTmapMarker" longitude="{{tmap.longitude}}" markers="{{tmap.markers}}"> </map>
+					</view>
+					<view class="flex diygw-col-24 justify-center items-center flex-nowrap flex2-clz">
+						<rich-text nodes="{{text2}}" catchtap="navigateTo" data-type="page" data-url="/pages/index/area/article/liuhezhen" class="diygw-col-24 text2-clz diygw-text-md text-white"></rich-text>
+						<rich-text nodes="{{text3}}" catchtap="navigateTo" data-type="daohang" data-address="中国吉林省通化市柳河县富民路" data-lat="42.290277" data-lng="125.73787" class="diygw-col-24 diygw-text-md text-white"></rich-text>
+					</view>
+				</view>
+			</view>
+			<view class="flex flex-direction-column flex-sub">
+				<view catchtap="changeCollapse" data-index="2" class="diygw-text-md padding flex solid-bottom {{ collapseDatas[2].isShow?'bg- cur ':''}}">
+					<view class="flex-sub"> 三源浦镇 </view>
+					<i class="diy-icon-unfold diy-collapse-icon {{ collapseDatas[2].isShow?'diy-collapse-active':''}}"></i>
+				</view>
+				<view wx:if="{{ collapseDatas[2].isShow}}" class="solid-bottom flex flex-direction-column flex-wrap">
+					<view class="diygw-col-24">
+						<map style="width: 100%; height: 300px" latitude="{{tmap2.latitude}}" bindmarkertap="clickTmap2Marker" longitude="{{tmap2.longitude}}" markers="{{tmap2.markers}}"> </map>
+					</view>
+					<view class="flex diygw-col-24 justify-center items-center flex-nowrap flex3-clz">
+						<rich-text nodes="{{text4}}" catchtap="navigateTo" data-type="page" data-url="/pages/index/area/article/sanyuanpu" class="diygw-col-24 text4-clz diygw-text-md text-white"></rich-text>
+						<rich-text nodes="{{text5}}" catchtap="navigateTo" data-type="daohang" data-address="中国吉林省通化市柳河县富民路" data-lat="42.290277" data-lng="125.73787" class="diygw-col-24 diygw-text-md text-white"></rich-text>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	
+</view>

@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "加快重点产业实施意见",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

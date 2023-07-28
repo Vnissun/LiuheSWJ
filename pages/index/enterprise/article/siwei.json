@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "通化斯威药业股份有限公司",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

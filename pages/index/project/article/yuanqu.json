@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "大健康产业园区建设项目",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

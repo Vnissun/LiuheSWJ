@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "战略新兴产业",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

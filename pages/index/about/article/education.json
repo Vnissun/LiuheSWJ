@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "教育设施",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

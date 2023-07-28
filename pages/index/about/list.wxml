@@ -1,0 +1,81 @@
+<view class="container">
+	<view class="flex flex-wrap diygw-col-24 flex-direction-column flex-clz">
+		<view class="diygw-col-24 text-clz diygw-text-lg"> 柳河县概况 </view>
+		<view class="flex diygw-col-24">
+			<view class="diygw-list">
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/about/article/supply" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/sdmq.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 水、电和煤气供应 </view>
+						<view class="text-sm remark"> 2021年柳河镇区内日供水能力约为5万吨，主要水源为安口镇烧锅水库及安口水库... </view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/about/article/traffic" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/jtys.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 交通运输 </view>
+						<view class="text-sm remark"> 全县境内公路总里程为1462.7公里（不含326条847.883公里屯道和巷道），其中... </view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/about/article/education" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/jyss.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 教育设施概况 </view>
+						<view class="text-sm remark"> 截止到2020年，柳河县共有幼儿园82所。各级各类学校43所，其中独立小学11所... </view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="flex diygw-col-24">
+			<view class="diygw-list">
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/about/article/health" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/ylss.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 医疗设施概况 </view>
+						<view class="text-sm remark"> 目前，全县共有医疗卫生机构382所。其中，公立医疗卫生机构22所，村卫生室203个... </view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/about/article/human" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/rlzy.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 人力资源概况 </view>
+						<view class="text-sm remark"> 截止2020年，柳河县城镇劳动力资源为42485人，其中：男性23156人，女性19329人... </view>
+					</view>
+				</view>
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/about/article/service" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/jrfw.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 金融服务行业整体情况 </view>
+						<view class="text-sm remark"> 目前，我县拥有银行业机构10家，形成了政策性与商业性银行互补，国有大行与中小股份制银行并存... </view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="flex diygw-col-24">
+			<view class="diygw-list">
+				<view catchtap="navigateTo" data-type="page" data-url="/pages/index/about/article/government" style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/zwfw.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 政务服务体系概况 </view>
+						<view class="text-sm remark"> 柳河县牢牢把握“政府围着企业转、企业有事马上办”的政务服务理念，以“妈妈式服务”为总要求... </view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	
+</view>

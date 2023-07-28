@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "修正药业集团柳河制药有限公司",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

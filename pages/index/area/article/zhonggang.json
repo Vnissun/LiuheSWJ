@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "中岗街道",
+	"navigationBarBackgroundColor": "#084fd7",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

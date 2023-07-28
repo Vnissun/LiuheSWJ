@@ -1,0 +1,8 @@
+{
+	"navigationBarTitleText": "印象柳河",
+	"navigationBarBackgroundColor": "#084fd7",
+	"navigationStyle": "custom",
+	"usingComponents": {
+		"diy-sticky": "/components/diy-sticky/diy-sticky"
+	}
+}

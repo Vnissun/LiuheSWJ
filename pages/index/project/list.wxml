@@ -1,0 +1,37 @@
+<view class="container">
+	<view class="flex flex-wrap diygw-col-24 flex-direction-column flex-clz">
+		<view class="diygw-col-24 text-clz diygw-text-lg"> 招商项目 </view>
+		<view class="flex diygw-col-24">
+			<view class="diygw-list">
+				<view style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/smdj.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 大规格超高功率石墨电极项目 </view>
+						<view class="text-sm remark"> 项目总投资20.4亿元，项目占地面积约15万平方米，建筑面积10.9万平方米... </view>
+					</view>
+				</view>
+				<view style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/ldc.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 锂离子电池负极材料项目 </view>
+						<view class="text-sm remark"> 项目总投资30亿元，占地面积15.7万平方米，建筑面积8万平方米... </view>
+					</view>
+				</view>
+				<view style="" class="diygw-item col-100 row arrow solid-bottom">
+					<view class="diygw-avatar">
+						<image mode="aspectFit" class="diygw-avatar-img" src="/static/cyy.jpg"></image>
+					</view>
+					<view class="content">
+						<view class="title"> 大健康产业园区建设项目 </view>
+						<view class="text-sm remark"> 项目位于柳河经济开发区内，东临空军导航台，南临园区五路，西临空地、北临一统河... </view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	
+</view>
